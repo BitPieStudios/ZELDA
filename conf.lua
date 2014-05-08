@@ -1,7 +1,7 @@
 function  love.conf(t)
-  t.window.width = 640
-  t.window.height = 480
+  t.window.width = 1080
+  t.window.height = 720
   t.version = "0.9.1"
   t.identity = "saveFiles"
-  t.window.borderless = true
+  t.window.borderless = false
 end
