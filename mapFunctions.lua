@@ -1,9 +1,11 @@
+local tileW, tileH, tileset, quads, tileTable
+
 function loadMap(path)
   --loads an external file.
   love.filesystem.load(path)()
 
-  function newMap(tileW,tileH,tilesetPath,quadInfo,tileString)
-    TileW, TileH = tileW,tileH
+  function newMap(tileWidth,tileHeight,tilesetPath,quadInfo,tileString)
+    TileWidth, TileHeight = tileW,tileH
     Tileset = love.graphics.newImage(tilesetPath)
 
  
